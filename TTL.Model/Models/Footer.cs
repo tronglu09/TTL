@@ -12,5 +12,6 @@ namespace TTL.Model.Models
 
         [Required]
         public string Content { set; get; }
+
     }
 }
