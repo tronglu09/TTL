@@ -21,13 +21,13 @@ namespace TTL.Model.Models
         public string Alias { set; get; }
 
         [Required]
-        public string CategoryID { set; get; }
+        public int CategoryID { set; get; }
 
         [MaxLength(256)]
         public string Image { set; get; }
 
         [Column(TypeName = "xml")]
-        public XElement MoreImages { set; get; }
+        public string MoreImages { set; get; }
 
         public decimal Price { set; get; }
 
