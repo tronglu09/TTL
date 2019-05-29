@@ -21,7 +21,7 @@ namespace TTL.Model.Models
         public int? DisplayOrder { get; set; }
 
         [Required]
-        public string GroupID { set; get; }
+        public int GroupID { set; get; }
 
         [ForeignKey("GroupID")]
         public virtual MenuGroup MenuGroup { set; get; }
